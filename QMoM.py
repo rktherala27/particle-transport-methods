@@ -74,11 +74,11 @@ def moments(degree,z,theta):
 
 def wheelers_algorithm(moments, N):
     """
-    Wheeler's Algorithm to compute abscissas (x) and weights (w)
+    Wheeler's Algorithm to compute abscissas(x) and weights (w)
     for the Quadrature Method of Moments (QMoM).
 
     Parameters:
-    moments (array): Array of raw moments of length 2*N that is 0,1,...2N-1
+    moments (array): Array of raw moments of length of 2*N that is 0,1,...2N-1
     N (int): Number of quadrature points (nodes)
 
     Returns:

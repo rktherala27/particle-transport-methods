@@ -20,7 +20,7 @@ This script may require modifications for specific use cases.
 """
 
 import numpy as np
-from scipy.integrate import odeint, quad
+from scipy.integrate import quad
 import matplotlib.pyplot as plt
 import time
 
@@ -244,7 +244,7 @@ def plot_dqmom_distribution(x, w, t, x_range=(0, 20)):
 
 def DQMoM_linSystem(weights, alphas, source_terms):
     """
-    Solve the 2N×2N DQMoM linear system in primary variables:
+    Solve the 2N×2N DQMoM linear system in the primary variables:
     for the moment equations:
         d/dt m_k = S_k
         where S_k are the source terms.
